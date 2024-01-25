@@ -14,9 +14,14 @@ body{
   	cursor: pointer;
 }
 
+.CPFcontent{
+    width: 150px;
+    height: 30px;
+}
+
 .content{
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 150px;
 }
 
 #uppercaseButton{
@@ -28,5 +33,9 @@ body{
 }
 
 #clearButton{
-	background-color: yellow;
+	background-color: orange;
+}
+
+#cpfButton{
+	background-color: green;
 }
