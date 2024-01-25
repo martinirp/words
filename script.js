@@ -19,13 +19,19 @@
 
     function upper_case(){
         $quadro.value = $quadro.value.toUpperCase();
+		$quadro.select();
+		document.execCommand('copy');
     };    
 
     function lower_case(){
         $quadro.value = $quadro.value.toLowerCase();
+		$quadro.select();
+		document.execCommand('copy');
     };
 	
 	function cpf_clean(){
 		$cpf.value = $cpf.value.replace(/[^\d]/gi,'');
+		$cpf.select();
+		document.execCommand('copy');
 	};
 })();
